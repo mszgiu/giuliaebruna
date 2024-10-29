@@ -1,4 +1,4 @@
-package giuliaebruna;
+
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Exe03 {
 		}
 
 		else {
-			System.out.println("o numero informado não é impar.");
+			System.out.println("o numero informado não é par.");
 		}
 
 		scanner.close();
