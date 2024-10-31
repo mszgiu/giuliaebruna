@@ -18,7 +18,7 @@ public class Exe03 {
 			}
 		}
        
-		System.out.println("As somas dos numeros pares ente 1 e " + num + " é: " + soma);
+		System.out.println("As somas dos numeros pares entre 1 e " + num + " é: " + soma);
 
 	}
 
