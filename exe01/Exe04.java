@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class Exe04 {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		        Scanner scanner = new Scanner(System.in);
+	        
+	        System.out.print("Digite um número: ");
+	        int numero = scanner.nextInt();
+	        
+	        long produto = 1;
 
-		int num;
+	        for (int i = 1; i <= numero; i += 2) {
+	            produto *= i;
+	        }
 
-		System.out.print("Digite um numero(Ímpar):");
-		num = scanner.nextInt();
-
-		if (num % 2 == 0) {
-			System.out.print("O numero digitado é par.");
-
-		} else {
-			for (int i = 1; i <= num; i++) {
-
-				int mult = num * i;
-				System.out.println(num + " x " + i + " = " + mult);
-			}
+	        System.out.println("O produto dos números ímpares entre 1 e " + numero + " é: " + produto);
+	        
+	        scanner.close();
+	    }
+	}
 
 		}
 	}
